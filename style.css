@@ -176,10 +176,21 @@ html {
     align-self: flex-start;
 }
 
-.fa-quote-left {
+.fa-quote-left, .fa-quote-right {
     font-size: 4rem;
     color: #f08e0f;
 }
+
+.fa-quote-left {
+    align-self: flex-start;
+}
+
+.fa-quote-right {
+    align-self: flex-end;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
 
 .customer-text {
     font-size: 1.8rem;
